@@ -55,11 +55,11 @@ function Contact() {
             </div>
           </div>
 
-          <div className="mt-12 rounded-2xl border border-border bg-card p-6">
-            <p className="font-serif text-2xl text-foreground leading-snug">
+          <div className="mt-12 rounded-2xl border border-border bg-primary text-primary-foreground p-6">
+            <p className="font-serif text-2xl leading-snug">
               "Aligning Technology with Better Care."
             </p>
-            <p className="mt-2 text-sm text-muted-foreground">Our north star, on every engagement.</p>
+            <p className="mt-2 text-sm opacity-80 italic">Trusted Partner. Better Outcomes.</p>
           </div>
         </div>
 
