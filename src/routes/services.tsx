@@ -17,21 +17,21 @@ export const Route = createFileRoute("/services")({
 const offerings = [
   {
     kicker: "01",
-    title: "EHR Selection & Implementation",
-    body: "Vendor evaluation, configuration, data migration, integrations, training, and go-live support — built around behavioral health workflows rather than retrofitted to them.",
-    bullets: ["Vendor RFP & scoring", "Build & configuration", "Cutover and stabilization"],
+    title: "Behavioral Health Technology",
+    body: "Strategy, vendor evaluation, and selection guidance grounded in how behavioral health teams actually deliver care — not generic healthcare IT advice.",
+    bullets: ["Tech strategy & roadmap", "Vendor evaluation & RFPs", "Selection scorecards"],
   },
   {
     kicker: "02",
-    title: "Clinical Workflow Design",
-    body: "Map current state, redesign for the clinician, document for compliance, and operationalize so the new workflow actually sticks across teams and shifts.",
-    bullets: ["Intake to discharge mapping", "Role-based workflow design", "Adoption & training plans"],
+    title: "EHR Optimization",
+    body: "Tune configuration, build, integrations, and workflows so your existing EHR investment works with — not against — your clinicians and operations teams.",
+    bullets: ["Configuration & build", "Integration design", "Go-live & stabilization"],
   },
   {
     kicker: "03",
-    title: "Regulatory Compliance",
-    body: "Translate state, federal, payer, and accreditation requirements into the documentation, forms, and audit trails your teams need on the ground.",
-    bullets: ["State & federal requirements", "Payer & accreditation alignment", "Audit-ready documentation"],
+    title: "Workflow Design",
+    body: "Map current state, redesign for the clinician, document for compliance, and operationalize so the new workflow actually sticks across teams and shifts.",
+    bullets: ["Intake to discharge mapping", "Role-based workflow design", "Adoption planning"],
   },
   {
     kicker: "04",
@@ -41,14 +41,20 @@ const offerings = [
   },
   {
     kicker: "05",
-    title: "Digital Forms & Documentation",
-    body: "Form libraries, templates, and assessments built for clinical accuracy, billing integrity, and a humane experience for the people filling them out.",
-    bullets: ["Assessment libraries", "Note & template design", "Billing-aligned documentation"],
+    title: "Compliance Consulting",
+    body: "Translate state, federal, payer, and accreditation requirements into the documentation, forms, and audit trails your teams need on the ground.",
+    bullets: ["State & federal requirements", "Payer & accreditation alignment", "Audit-ready documentation"],
   },
   {
     kicker: "06",
+    title: "Staff Training & Adoption",
+    body: "Role-based training, super-user programs, and change management that turn rollouts into durable adoption — not one-time launches.",
+    bullets: ["Role-based curricula", "Super-user programs", "Change management"],
+  },
+  {
+    kicker: "07",
     title: "Operational Improvement",
-    body: "Find the friction, redesign the process, measure the lift — across scheduling, billing, utilization, and clinical operations.",
+    body: "Find the friction, redesign the process, measure the lift — across scheduling, intake, billing, utilization, and clinical operations.",
     bullets: ["Process diagnostics", "Redesign & rollout", "Outcome measurement"],
   },
 ];
