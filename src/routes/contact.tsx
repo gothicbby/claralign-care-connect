@@ -37,7 +37,7 @@ function Contact() {
             <Mail size={18} className="text-primary mt-1" />
             <div>
               <div className="font-serif text-xl text-foreground">Email</div>
-              <p className="text-muted-foreground">hello@claralign.com</p>
+              <p className="text-muted-foreground">info@claralign.com</p>
             </div>
           </div>
           <div className="flex items-start gap-4">

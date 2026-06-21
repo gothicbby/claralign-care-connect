@@ -29,7 +29,7 @@ export function Footer() {
         </div>
         <div className="text-sm">
           <div className="text-xs uppercase tracking-widest text-muted-foreground mb-4">Get in touch</div>
-          <p className="text-foreground/90">hello@claralign.com</p>
+          <p className="text-foreground/90">info@claralign.com</p>
           <p className="text-muted-foreground mt-2">By appointment, remote &amp; on-site</p>
         </div>
       </div>
