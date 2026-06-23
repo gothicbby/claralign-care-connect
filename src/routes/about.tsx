@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
-import logoAsset from "@/assets/claralign-logo.jpeg.asset.json";
+import logoUrl from "@/assets/claralign-logo.jpeg";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -37,7 +37,7 @@ function About() {
         </div>
         <div className="md:col-span-5">
           <div className="aspect-square rounded-2xl overflow-hidden border border-border bg-card p-10 flex items-center justify-center shadow-sm">
-            <img src={logoAsset.url} alt="Claralign Solutions" width={600} height={600} loading="lazy" className="h-full w-full object-contain" />
+            <img src={logoUrl} alt="Claralign Solutions" width={600} height={600} loading="lazy" className="h-full w-full object-contain" />
           </div>
           <p className="mt-4 text-center font-serif italic text-secondary">Trusted Partner. Better Outcomes.</p>
         </div>

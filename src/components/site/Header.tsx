@@ -16,7 +16,7 @@ export function Header() {
     <header className="sticky top-0 z-40 backdrop-blur-md bg-background/90 border-b border-border">
       <div className="mx-auto max-w-6xl px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <img src={logoAsset.url} alt="Claralign Solutions" className="h-10 w-auto" width={80} height={80} />
+          <img src={logoUrl} alt="Claralign Solutions" className="h-10 w-auto" width={80} height={80} />
           <span className="font-serif text-xl tracking-tight text-primary hidden sm:inline">
             Claralign <span className="text-muted-foreground">Solutions</span>
           </span>
