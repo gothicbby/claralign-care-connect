@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/claralign-logo.jpeg.asset.json";
+import logoUrl from "@/assets/claralign-logo.jpeg";
 
 const nav = [
   { to: "/", label: "Home" },
