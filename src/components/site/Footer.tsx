@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logoAsset from "@/assets/claralign-logo.jpeg.asset.json";
+import logoUrl from "@/assets/claralign-logo.jpeg";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-16 grid gap-12 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3">
-            <img src={logoAsset.url} alt="Claralign Solutions" className="h-10 w-auto" width={80} height={80} />
+            <img src={logoUrl} alt="Claralign Solutions" className="h-10 w-auto" width={80} height={80} />
             <span className="font-serif text-xl text-primary">
               Claralign <span className="text-muted-foreground">Solutions</span>
             </span>

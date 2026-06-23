@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Monitor, Settings, GitBranch, BarChart3, ShieldCheck, GraduationCap, Wrench, Stethoscope } from "lucide-react";
 import { SiteLayout } from "@/components/site/Layout";
-import logoAsset from "@/assets/claralign-logo.jpeg.asset.json";
+import logoUrl from "@/assets/claralign-logo.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -67,7 +67,7 @@ function Home() {
           </div>
           <div className="md:col-span-5">
             <div className="relative aspect-square rounded-2xl overflow-hidden border border-border bg-card p-12 flex items-center justify-center shadow-sm">
-              <img src={logoAsset.url} alt="Claralign Solutions logo" className="h-full w-full object-contain" width={600} height={600} />
+              <img src={logoUrl} alt="Claralign Solutions logo" className="h-full w-full object-contain" width={600} height={600} />
             </div>
             <p className="mt-4 text-center font-serif italic text-secondary">Trusted Partner. Better Outcomes.</p>
           </div>
