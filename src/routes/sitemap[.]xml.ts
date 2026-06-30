@@ -11,8 +11,10 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/", priority: "1.0" },
           { path: "/services", priority: "0.9" },
           { path: "/about", priority: "0.8" },
+          { path: "/resources", priority: "0.7" },
           { path: "/contact", priority: "0.8" },
         ];
+
         const urls = entries.map((e) =>
           `  <url><loc>${BASE_URL}${e.path}</loc><changefreq>weekly</changefreq><priority>${e.priority}</priority></url>`
         ).join("\n");

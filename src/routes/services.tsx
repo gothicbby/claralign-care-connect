@@ -99,17 +99,23 @@ function Services() {
 
       <section className="mx-auto max-w-6xl px-6 pb-24">
         <div className="rounded-3xl bg-primary text-primary-foreground p-10 md:p-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-          <h2 className="font-serif text-3xl md:text-4xl max-w-xl">
-            Not sure where to start? A short call usually clarifies the next move.
-          </h2>
+          <div className="max-w-xl">
+            <h2 className="font-serif text-3xl md:text-4xl">
+              Not sure where to start? A short call usually clarifies the next move.
+            </h2>
+            <p className="mt-4 opacity-85 leading-relaxed">
+              Let's discuss your workflows, technology, and operational goals — and explore practical solutions together.
+            </p>
+          </div>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 rounded-full bg-background text-foreground px-6 py-3 text-sm hover:opacity-90 transition"
+            className="inline-flex items-center gap-2 rounded-full bg-background text-foreground px-6 py-3 text-sm hover:opacity-90 transition shrink-0"
           >
-            Get in touch <ArrowUpRight size={16} />
+            Schedule a Free 30-Minute Consultation <ArrowUpRight size={16} />
           </Link>
         </div>
       </section>
+
     </SiteLayout>
   );
 }
