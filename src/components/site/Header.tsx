@@ -6,7 +6,7 @@ import logoUrl from "@/assets/claralign-logo.jpeg";
 const nav = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
-  { to: "/our-work", label: "Our Work" },
+  { to: "/experience", label: "Experience" },
   { to: "/insights", label: "Insights" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
