@@ -6,10 +6,12 @@ import logoUrl from "@/assets/claralign-logo.jpeg";
 const nav = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
+  { to: "/our-work", label: "Our Work" },
+  { to: "/insights", label: "Insights" },
   { to: "/about", label: "About" },
-  { to: "/resources", label: "Resources" },
   { to: "/contact", label: "Contact" },
 ] as const;
+
 
 
 export function Header() {
